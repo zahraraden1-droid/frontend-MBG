@@ -13,6 +13,7 @@ export default function AdminSekolahLayout({ children }) {
           <Link href="/admin-sekolah" className="block text-primary">Ringkasan</Link>
           <Link href="/admin-sekolah/menu" className="block text-primary">Input menu</Link>
           <Link href="/admin-sekolah/batch" className="block text-primary">Batch maggot</Link>
+          <Link href="/admin-sekolah/perangkat" className="block text-primary">Perangkat IoT</Link>
         </aside>
         <div className="md:col-span-3 space-y-6">{children}</div>
       </div>
